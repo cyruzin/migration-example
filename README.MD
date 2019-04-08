@@ -13,5 +13,6 @@ docker run --name migration-postgres -p 5432:5432 -e POSTGRES_USER=admin -e POST
 ### Run:
 
 ```sh
+go get -t -v ./... 
 go run main.go
 ```
